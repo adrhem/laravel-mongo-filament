@@ -336,7 +336,9 @@ db.users.find()
     _id: ObjectId('68d4699ca2f00456ca042612'),
     name: 'Adrián HM',
     email: 'dev.foe555@slmail.me',
-    password: null,
+    password: "$2y$10$.....u"And that's it, you can easily integrate mongo with laravel and filament. Just a reminder that Filament doesn't officially support MongoDB so if you plan to use it in production please test all the features you plan to use. For more information visit the official documentation of all the technologies described in this post.
+
+Thanks for reading! And if you have any questions or feedback please let me know.,
     updated_at: ISODate('2025-09-24T22:14:49.202Z'),
     created_at: ISODate('2025-09-24T21:58:52.165Z'),
     addresses: [
@@ -353,6 +355,6 @@ db.users.find()
 
 ## Conclusion
 
-And that's it, you can easily integrate mongo with laravel and filament. Just a reminder that Filament doesn't officially support MongoDB so if you plan to update it be careful if more configuration is needed. For more information visit the official documentation of all the technologies described in this post.
+And that's it, you can easily integrate mongo with laravel and filament. Just a reminder that Filament doesn't officially support MongoDB so if you plan to use it in production please test all the features you plan to use. For more information visit the official documentation of all the technologies described in this post.
 
 Thanks for reading! And if you have any questions or feedback please let me know.
